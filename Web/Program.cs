@@ -7,7 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddRazorPages();
-
+builder.Services.AddSingleton<IQuizUserService,QuizUserService>();
+builder.Services.AddSingleton<IIdentity<int>,Quiz>();
+builder.Services.AddSingleton<IIdentity<int>,QuizItem>();
+builder.Services.AddSingleton<IIdentity<string>,QuizItemUserAnswer>();
 
 var app = builder.Build();
 

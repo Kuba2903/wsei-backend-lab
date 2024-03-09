@@ -1,0 +1,15 @@
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\bigie\source\repos\wsei-backend-lab\lab1\wsei-backend-lab\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
