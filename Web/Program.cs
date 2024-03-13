@@ -5,14 +5,15 @@ using Infrastructure.Memory.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
+builder.Services.AddSingleton<IGenericRepository<Quiz,int>, MemoryGenericRepository<Quiz,int>>();
+builder.Services.AddSingleton<IGenericRepository<QuizItem,int>, MemoryGenericRepository<QuizItem,int>>();
+builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer,string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IQuizUserService,QuizUserService>();
-builder.Services.AddSingleton<IIdentity<int>,Quiz>();
-builder.Services.AddSingleton<IIdentity<int>,QuizItem>();
-builder.Services.AddSingleton<IIdentity<string>,QuizItemUserAnswer>();
+
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
