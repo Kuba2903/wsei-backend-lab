@@ -1,0 +1,43 @@
+﻿@page "/displayusers"
+@using BlazorApp.Data
+@inject UsersService UsersService
+
+<PageTitle>Users service</PageTitle>
+
+<h1>Users service</h1>
+
+<p>Users list.</p>
+
+@if (users == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>UserName</th>
+                <th>Connection Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.connectionId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Users[]? users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await UsersService.GetUsersAsync();
+    }
+}
