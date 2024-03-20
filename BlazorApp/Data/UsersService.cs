@@ -21,6 +21,18 @@ namespace BlazorApp.Data
             }).ToArray());
         }
 
+        public IEnumerable<(string con, string name)> GetAll()
+        {
+            List<(string con, string name)> users = new List<(string con, string name)>();
+
+            foreach (var user in UserNames)
+            {
+                users.Add((user.connectionId, user.Name));
+            }
+
+            return users;
+        }
+
 
         public void Add(string connectionId, string username) 
             => UserNames.Add(new Users { connectionId = connectionId, Name = username });
@@ -49,6 +61,10 @@ namespace BlazorApp.Data
             }
         }
 
+        /*public IEnumerable<(string connectionId, string username)> GetAll()
+        {
+            return new List<(string connectionId, string username)>().
+        }*/
 
     }
 }
