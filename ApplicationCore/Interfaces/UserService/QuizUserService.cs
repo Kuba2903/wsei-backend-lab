@@ -43,7 +43,7 @@ public class QuizUserService: IQuizUserService
         return answerRepository.FindBySpecification(new QuizItemsForQuizIdFilledByUser(quizId, userId)).ToList();
     }
 
-    public List<Quiz> GetAllQuizzes()
+    public IEnumerable<Quiz> GetAllQuizzes()
     {
         return quizRepository.FindAll();
     }

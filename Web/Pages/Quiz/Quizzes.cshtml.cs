@@ -19,7 +19,7 @@ namespace BackendLab01.Pages.Quiz
 
         public void OnGet(int id)
         {
-            Quizzes = _userService.GetAllQuizzes();
+            Quizzes = _userService.GetAllQuizzes().ToList();
         }
     }
 }
